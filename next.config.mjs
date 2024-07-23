@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      domains: ['rickandmortyapi.com'], // Buraya yüklemek istediğiniz alan adını ekleyin
+    },
+  };
+  
+  export default nextConfig;
+  
